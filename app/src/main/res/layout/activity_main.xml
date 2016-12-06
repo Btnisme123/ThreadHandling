@@ -11,8 +11,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.vulan.threadhandling.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+    <com.example.vulan.threadhandling.entity.BallObject
+        android:id="@+id/ball_0"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <com.example.vulan.threadhandling.entity.BallObject
+        android:id="@+id/ball_1"
+        android:layout_toRightOf="@id/ball_0"
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <com.example.vulan.threadhandling.entity.BallObject
+        android:id="@+id/ball_2"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ball_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <com.example.vulan.threadhandling.entity.BallObject
+        android:id="@+id/ball_3"
+        android:layout_toRightOf="@id/ball_2"
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <com.example.vulan.threadhandling.entity.BallObject
+        android:id="@+id/ball_4"
+        android:layout_toRightOf="@id/ball_3"
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <com.example.vulan.threadhandling.entity.BallObject
+        android:id="@+id/ball_5"
+        android:layout_toRightOf="@id/ball_4"
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
 </RelativeLayout>
